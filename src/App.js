@@ -27,16 +27,6 @@ function App() {
                 </div>
               </li>
             </ul>
-  
-      
-            
-              
-      
-  
-            
-      
-      
-    
           </div>
         </div>
       </div>
