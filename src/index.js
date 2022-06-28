@@ -1,14 +1,12 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import App from './components/wrappers/App';
 
-
+// Add bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
 
-
-
-import './style/index.css';
+// Add our style
+import './assets/style/index.css';
 
 ReactDOM.render(
     <App/>,
