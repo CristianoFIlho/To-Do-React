@@ -26,7 +26,7 @@ export function wrapChildrenWith(children, props) {
 }
 
 /**
- * Checks if the string includes the substring.
+ * Verifica se a string inclui a substring.
  *
  * @param  {String} str
  * @param  {String} substr
