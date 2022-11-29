@@ -1,8 +1,8 @@
 import React from 'react';
 
 /**
- * Returns a new object with only few attributes of the original object.
- * Note: the attributes/properties will still be bound to the old object.
+ * Retorna um novo objeto com apenas alguns atributos do objeto original.
+  * Observação: os atributos/propriedades ainda estarão vinculados ao objeto antigo.
  *
  * @param  {Object} object     The object.
  * @param  {Array}             Array of selected attributes.
@@ -19,7 +19,7 @@ export function objectWithOnly(object, attrs) {
 }
 
 /**
- * Wraps react children elements with props.
+ * Envoltórios reagem a elementos filhos com adereços.
  */
 export function wrapChildrenWith(children, props) {
     return React.Children.map(children, child => React.cloneElement(child, props));
