@@ -1,7 +1,7 @@
 import update from 'immutability-helper';
 
 /**
- * Get the list of todo items.
+ * Obtenha a lista de itens de tarefas.
  * @return {Array}
  */
 export function getAll() {
@@ -40,8 +40,8 @@ export function updateStatus(items, itemId, completed) {
 }
 
 /**
- * A counter to generate a unique id for a todo item.
- * Can remove this logic when the todo is created using backend/database logic.
+ * Um contador para gerar um ID exclusivo para um item de tarefa.
+  * Pode remover esta lógica quando o todo é criado usando lógica de back-end/banco de dados.
  * @type {Number}
  */
 let todoCounter = 1;
@@ -51,7 +51,7 @@ function getNextId() {
 }
 
 /**
- * Adds a new item on the list and returns the new updated list (immutable).
+ * Adiciona um novo item na lista e retorna a nova lista atualizada (imutável).
  *
  * @param {Array} list
  * @param {Object} data
